@@ -1,0 +1,33 @@
+{
+  "name": "recored",
+  "version": "1.0.0-PreAlpha.1",
+  "module": "app.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun app.ts",
+    "dev": "bun --hot app.ts",
+    "prepare": "husky install",
+    "kill": "./kill.sh",
+    "delete_session": "sudo rm -r .wwebjs_*"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "husky": "^8.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/qrcode-terminal": "^0.12.2",
+    "axios": "^1.6.5",
+    "chokidar": "^3.5.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.12",
+    "moment": "^2.30.1",
+    "mongoose": "^8.0.3",
+    "os": "^0.1.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
